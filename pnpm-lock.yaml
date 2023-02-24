@@ -8,6 +8,7 @@ specifiers:
   '@types/node': ^18.14.0
   '@types/validator': ^13.7.12
   bcrypt: ^5.1.0
+  dotenv: ^16.0.3
   error: ^10.4.0
   express: ^4.18.2
   express-session: ^1.17.3
@@ -24,6 +25,7 @@ specifiers:
 
 dependencies:
   bcrypt: 5.1.0
+  dotenv: 16.0.3
   express: 4.18.2
   express-session: 1.17.3
   lodash: 4.17.21
@@ -486,6 +488,11 @@ packages:
     dependencies:
       path-type: 4.0.0
     dev: true
+
+  /dotenv/16.0.3:
+    resolution: {integrity: sha512-7GO6HghkA5fYG9TYnNxi14/7K9f5occMlp3zXAuSxn7CKCxt9xbNWG7yF8hTCSUchlfWSe3uLmlPfigevRItzQ==}
+    engines: {node: '>=12'}
+    dev: false
 
   /dottie/2.0.3:
     resolution: {integrity: sha512-4liA0PuRkZWQFQjwBypdxPfZaRWiv5tkhMXY2hzsa2pNf5s7U3m9cwUchfNKe8wZQxdGPQQzO6Rm2uGe0rvohQ==}
