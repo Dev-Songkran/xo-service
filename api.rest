@@ -1,0 +1,34 @@
+@host = http://localhost:3301
+@cookie =
+
+
+### Register
+POST {{host}}/register
+Content-Type: application/json
+
+{
+  "username":"testUsername",
+  "password":"testPassword"
+}
+
+### Login
+POST {{host}}/authen
+Content-Type: application/json
+
+{
+  "username":"testUsername",
+  "password":"testPassword"
+}
+
+### getPlayer
+GET {{host}}/getPlayerData?username=testUsername
+Cookie: {{cookie}}
+
+### update
+POST {{host}}/updateResult
+Content-Type: application/json
+Cookie: {{cookie}}
+
+{
+  "player_win": "draw"
+}
